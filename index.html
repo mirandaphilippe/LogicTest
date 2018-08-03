@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="question1">
+        <h1>Questão 1</h1>
+        <p>Escreva uma função que receba um número inteiro N positivo e retorne a soma de
+                todos os números primos no intervalo de zero até N.</p>
+            <label>
+                Digite um número e clique em resultado<br>
+                    <input id="inputNumber" type="number">
+                </label>
+                <h3 id="numberResult"></h3>
+                <div onclick="question1Result()" style="
+                display: inline;
+                padding: 8px;
+                background: #ccc;
+                cursor: pointer;">Resultado</div>
+    </div>
+    <div id="question2">
+        <h1>Questão 2</h1>
+        <p>
+            Escreva uma função que receba como entrada um vetor de números decimais
+            positivos e retorne um vetor dos seus equivalentes em algarismos romanos.
+        </p>
+        <label>
+            Digite uma lista de números, separada por vírgula sem espaços e sem colchetes. Caso contrário retorna um erro;<br>
+        <input type="text" id="romanInput">
+        </label>
+        <h3 id="romanResult"></h3>
+        <div onclick="question2Result()" style="
+                display: inline;
+                padding: 8px;
+                background: #ccc;
+                cursor: pointer;">Resultado</div>
+    </div>
+    <script src="question1.js"></script>
+    <script src="question2.js"></script>
+    <script src="question3.js"></script>
+</body>
+</html>
