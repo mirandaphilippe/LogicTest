@@ -17,7 +17,7 @@ function somaPrimos (num) {
         if(ePrimo(i)) soma.push(i);        
     }
     soma.forEach(
-        (a) => {res += parseFloat(a)}
+        (a) => res += parseFloat(a)
     )
     return res
 }
